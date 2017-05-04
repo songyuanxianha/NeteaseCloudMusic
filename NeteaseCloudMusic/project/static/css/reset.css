@@ -1,0 +1,127 @@
+/* 存放公共样式。如清楚默认样式 */
+html, body, div, img, ul, li, h2, h3, p, span, template {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    font-size: 20px;
+    font-family: "微软雅黑"；
+}
+body {
+    width: 16rem;
+}
+li {
+    list-style: none;
+}
+input {
+    border: none;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 22.5px;
+    }
+}
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 25.75px;
+    }
+}
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 23.44px;
+    }
+}
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 25.75px;
+    }
+    #app {
+        width: 412px;
+    }
+}
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 48px;
+    }
+}
+/*一行三张图的歌单样式*/
+.song-list-3pictures {
+        margin-top: 0.65rem;
+    }
+.song-list-3pictures img {
+    width: 5.21rem;
+    height: 5.21rem;
+    margin-right: 0.08rem;
+}
+.song-list-3pictures li {
+    float: left;
+    margin-bottom: 1rem;
+}
+.song-list-descript {
+    width: 5rem;
+    height: 1.78rem;
+    font-size: 0.47rem;
+    line-height: 0.8rem;
+    color: #363837;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+/*一行两张图的歌单样式*/
+.song-list-2pictures img {
+        width: 7.9rem;
+        height: 4.48rem;
+    }
+.song-list-2pictures li {
+    float: left;
+    margin-right: 0.08rem;
+    margin-bottom: 1rem;
+}
+.song-list-2pictures p {
+    width: 7.8rem !important;
+}
+.recommended-song-list {
+        background: #f0f4f3;
+    }
+.recommended-h {
+    font-size: 0.65rem;
+    line-height: 0.65rem;
+    margin-top: 1.05rem;
+    margin-left: 0.39rem;
+}
+/*跳转头部样式*/
+#nav {
+    width: 16rem;
+    height: 2.31rem;
+    background: #d33b30;
+    font-size: 0.65rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#nav img {
+        width: 0.89rem;
+        height: 0.78rem;
+        position: absolute;
+        left: 0.62rem;
+        top: 0.85rem; 
+}
+#content {
+    margin-top: 4.02rem;
+}
